@@ -14,7 +14,7 @@ import 'package:http_parser/http_parser.dart' show CompatibleWebSocket;
 
 void main() {
   // Provide static content:
-  final webRoot = Platform.script.resolve('../web').toFilePath();
+  final webRoot = Platform.script.resolve('../build/web').toFilePath();
   app.setShelfHandler(
     createStaticHandler(
         webRoot,

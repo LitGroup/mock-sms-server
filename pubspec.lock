@@ -112,7 +112,7 @@ packages:
   redstone:
     description: redstone
     source: hosted
-    version: "0.6.1"
+    version: "0.6.2"
   redstone_mapper:
     description: redstone_mapper
     source: hosted
