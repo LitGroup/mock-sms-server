@@ -1,0 +1,12 @@
+.idea
+*.iml
+
+.git
+.gitignore
+
+.pub
+/build
+.packages
+/*/.packages
+/packages
+/*/packages
