@@ -1,0 +1,23 @@
+name: 'app'
+version: 0.1.0
+description: Development mock for SMS service.
+author: Roman Shamritskiy <roman@litgroup.ru>
+homepage: https://github.com/litgroup/mock-sms-service
+
+environment:
+  sdk: '^1.13.0'
+
+dependencies:
+  redstone: '^0.6.1'
+  redstone_mapper: '^0.2.0-beta.1+1'
+  redstone_web_socket: '0.1.0-beta.1'
+  shelf_static: '^0.2.3+2'
+  browser: '^0.10.0'
+  dart_to_js_script_rewriter: '^0.1.0'
+
+
+transformers:
+- $dart2js:
+    $exclude: "bin/server.dart"
+    minify: true
+- dart_to_js_script_rewriter
