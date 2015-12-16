@@ -1,6 +1,6 @@
 name: 'app'
 version: 0.1.0
-description: Server which provides mock of SMS service for development or test environment.
+description: 'Server which provides mock of SMS gateway for development or test environment.'
 author: Roman Shamritskiy <roman@litgroup.ru>
 homepage: https://github.com/litgroup/mock-sms-service
 

@@ -32,7 +32,7 @@ void main() {
   );
 
   app.setupConsoleLog();
-  app.start();
+  app.start(address: '0.0.0.0', port: 9931);
 }
 
 @app.Group('/messages')

@@ -13,7 +13,7 @@ COPY . /app
 RUN pub get --offline \
     && pub build
 
-EXPOSE 8080
+EXPOSE 9931
 
 CMD []
 
