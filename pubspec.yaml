@@ -1,4 +1,4 @@
-name: litgroup_smsmock
+name: smsmock
 version: 0.1.0
 description: 'Server which provides mock of SMS gateway for development, QA or demo environment.'
 author: Roman Shamritskiy <roman@litgroup.ru>
@@ -9,6 +9,9 @@ environment:
 
 dependencies:
   di: '^3.3.8'
+
+dev_dependencies:
+  test: '^0.12.13'
 
 transformers:
 - $dart2js:
