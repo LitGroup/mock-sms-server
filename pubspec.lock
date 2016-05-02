@@ -18,7 +18,7 @@ packages:
       name: async
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.9.0"
+    version: "1.10.0"
   barback:
     description:
       name: barback
@@ -60,25 +60,25 @@ packages:
       name: convert
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.0.1"
+    version: "1.1.1"
   crypto:
     description:
       name: crypto
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.9.2+1"
+    version: "1.1.1"
   csslib:
     description:
       name: csslib
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.12.2"
+    version: "0.13.1"
   di:
     description:
       name: di
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.3.8"
+    version: "3.3.10"
   glob:
     description:
       name: glob
@@ -90,7 +90,7 @@ packages:
       name: html
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.12.2+1"
+    version: "0.12.2+2"
   http_multi_server:
     description:
       name: http_multi_server
@@ -102,13 +102,13 @@ packages:
       name: http_parser
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.0"
+    version: "2.2.1"
   logging:
     description:
       name: logging
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.11.2"
+    version: "0.11.3"
   matcher:
     description:
       name: matcher
@@ -156,7 +156,7 @@ packages:
       name: pool
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.2.2"
+    version: "1.2.3"
   pub_semver:
     description:
       name: pub_semver
@@ -204,7 +204,7 @@ packages:
       name: stack_trace
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.6.4"
+    version: "1.6.5"
   stream_channel:
     description:
       name: stream_channel
@@ -222,7 +222,7 @@ packages:
       name: test
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.12.13"
+    version: "0.12.13+1"
   typed_data:
     description:
       name: typed_data
@@ -265,4 +265,4 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.8"
-sdk: ">=1.15.0 <1.17.0"
+sdk: ">=1.16.0 <1.18.0"

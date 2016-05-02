@@ -48,7 +48,7 @@ class PhoneNumber {
   final String value;
 }
 
-/// Idenitier of message sender.
+/// Identifier of message sender.
 class SenderId {
   SenderId(this.value);
 
